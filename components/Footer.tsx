@@ -1,3 +1,4 @@
+import './tipa-credit.css';
 import React from 'react';
 import { CONTACT_INFO } from '../constants';
 import { Facebook, Instagram, Send, Linkedin, MapPin, Phone, Mail, ExternalLink } from 'lucide-react';
@@ -126,14 +127,10 @@ export const Footer: React.FC = () => {
              <p>© {new Date().getFullYear()} TSA. {t.footer.rights}</p>
              
              {/* Developer Credit */}
-             <a href="https://tipa.uz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 transition-all hover:text-white group" title="Developed by Tipa">
-                <span className="opacity-70">Developed by</span>
-                <img 
-                  src="https://tipa.uz/logo.svg" 
-                  alt="Tipa" 
-                  className="h-5 w-auto brightness-0 invert opacity-70 group-hover:opacity-100 transition-opacity" 
-                />
-             </a>
+             <a className="tipa-credit" href="https://tipa.uz/ru" target="_blank" rel="nofollow noopener noreferrer" aria-label="Сайт разработан агентством TIPA">
+              <span>Сделано</span>
+              <img src="/media/tipa-agency-animated.svg" alt="TIPA" width={64} height={42} />
+            </a>
           </div>
 
           <div className="flex gap-6">
