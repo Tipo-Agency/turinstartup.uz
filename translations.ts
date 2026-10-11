@@ -95,7 +95,8 @@ export const TRANSLATIONS = {
       links: "Навигация",
       contacts: "Контакты",
       rights: "Все права защищены.",
-      privacy: "Политика конфиденциальности"
+      privacy: "Политика конфиденциальности",
+      credit: "Разработка сайта — TIPA"
     }
   },
   uz: {
@@ -193,7 +194,8 @@ export const TRANSLATIONS = {
       links: "Navigatsiya",
       contacts: "Aloqa",
       rights: "Barcha huquqlar himoyalangan.",
-      privacy: "Maxfiylik siyosati"
+      privacy: "Maxfiylik siyosati",
+      credit: "Sayt yaratish — TIPA"
     }
   },
   en: {
@@ -291,7 +293,8 @@ export const TRANSLATIONS = {
       links: "Navigation",
       contacts: "Contact",
       rights: "All rights reserved.",
-      privacy: "Privacy Policy"
+      privacy: "Privacy Policy",
+      credit: "Website by TIPA"
     }
   }
 };

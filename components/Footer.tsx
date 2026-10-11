@@ -127,9 +127,9 @@ export const Footer: React.FC = () => {
              <p>© {new Date().getFullYear()} TSA. {t.footer.rights}</p>
              
              {/* Developer Credit */}
-             <a className="tipa-credit" href="https://tipa.uz/ru" target="_blank" rel="nofollow noopener noreferrer" aria-label="Сайт разработан агентством TIPA">
-              <span>Сделано</span>
-              <img src="/media/tipa-agency-animated.svg" alt="TIPA" width={64} height={42} />
+             <a className="tipa-credit" href="https://tipa.uz/ru/services/web" target="_blank" rel="noopener">
+              <span>{t.footer.credit}</span>
+              <img src="/media/tipa-agency-animated.svg" alt="" width={64} height={42} />
             </a>
           </div>
 
